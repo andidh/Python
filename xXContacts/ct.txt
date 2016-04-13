@@ -1,0 +1,3 @@
+2,ioana,980341923401,friends
+1,andi,8987942,family
+3,flori,4938018,family

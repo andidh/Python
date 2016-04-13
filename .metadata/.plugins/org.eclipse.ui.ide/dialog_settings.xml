@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/AndiD/Documents/Eclipse/Exam"/>
+			<item value="/Users/AndiD/Documents/workspace/backtracking"/>
+			<item value="/Users/AndiD/Documents/Eclipse/lab24"/>
+			<item value="/Users/AndiD/Documents/Eclipse/teststudent"/>
+			<item value="/Users/AndiD/Downloads"/>
+			<item value="/Users/AndiD/Downloads/2015.Seminar.05"/>
+			<item value="/Users/AndiD/Downloads/2015.Seminar-2.08"/>
+			<item value="/Users/AndiD/Documents/Eclipse"/>
+			<item value="/Users/AndiD/Documents/workspace/test"/>
+			<item value="/Users/AndiD/Documents/workspace/geniu"/>
+			<item value="/Users/AndiD/Documents/workspace/temalab_7_9"/>
+			<item value="/Users/AndiD/Documents/workspace/examen"/>
+			<item value="/Users/AndiD/Documents/workspace/temalab79 fisier"/>
+			<item value="/Users/AndiD/Documents/Eclipse/movie"/>
+			<item value="/Users/AndiD/Documents/workspace/simulare"/>
+			<item value="/Users/AndiD/Documents/workspace/masinute"/>
+			<item value="/Users/AndiD/Downloads/DoarSem08-Rental"/>
+			<item value="/Users/AndiD/Downloads/2015.Seminar.08"/>
+			<item value="/Users/AndiD/Downloads/Sem05-OOP-ListOfComplexNumbers"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.python.pydev.ui.wizards.project.PythonProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.python.pydev.PythonCategory"/>
+		</list>
+	</section>
+</section>

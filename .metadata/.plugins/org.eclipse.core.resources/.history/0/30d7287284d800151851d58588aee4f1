@@ -1,0 +1,54 @@
+
+from domain.entities import Example
+class Repository:
+    
+    def __init__(self, file):
+        
+        self._file = file
+        self.list = []
+        
+        self.loadFromFile()
+        
+    
+    
+    
+    def add(self, e): 
+        '''
+        Function which adds a product to the file
+        e = object of type E
+        ''' 
+        self.list.append(e)
+        self.__storeToFile(e)
+    
+    
+    
+    
+    def loadFromFile(self):
+        
+        '''
+        Function which loads the products from the file 
+        output : file.txt
+        
+        '''
+        f = open(self._file, "r")
+        for line in f:
+            atr1, atr2 = line.split(",") 
+            '''aici atr1, atr2 is atributele care ti se cer in problema (de ex id, name, price, ce ai acolo)'''
+            e = Example(atr1, atr2)  
+            '''in loc de Example pui ce nume ai dat clasei din domeniu (de ex Product sau ce ai in problema, si in paranteze pui atributele'''
+            self.list.append(e)
+        f.close()
+            
+    def __storeToFile(self, e):
+        '''
+        Function which stores the products to the file
+        '''
+        f = open(self._file, "a")
+        line = str(e.get_atr1()) + "," + str(e.get_atr2()) + "\n"
+        '''daca ai mai multe atribute le adaugi cu "," intre ele si schimbi functia de get cu ce ai, vezi sa pui () dupa get_atr '''
+        f.writelines(line)
+        f.close()
+        
+        
+    def __len__(self):
+        return len(self.list)

@@ -1,0 +1,29 @@
+
+
+
+class Example:
+    
+    def __init__(self, atr1, atr2):
+        ''' atr1, atr2, le schimbi cu ce iti cere problema (de ex pret, nume, id)
+        '''
+        self.__atr1 = atr1
+        self.__atr2 = atr2
+        
+    '''Pt fiecare faci functie de get_atr '''
+        
+    def get_atr1(self):
+        return self.__atr1
+    
+    def get_atr2(self):
+        return self.__atr2
+    
+    def __eq__(self, other):
+        return self.get_atr1() == other.get_atr1() and self.get_atr2() == other.get_atr2()
+    
+    ''' la fiecare atribut din problema faci chestie din asta cu property, in care prima chestie ii functia de get si restu 3 None'''
+    
+    atr1 = property(get_atr1, None, None, None)
+    atr2 = property(get_atr2, None, None, None)
+    
+    def __str__(self):
+        return str(self.atr1) + " " + str(self.atr2)

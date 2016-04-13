@@ -1,0 +1,78 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/AndiD/Documents/Eclipse/.metadata/.plugins/org.eclipse.core.resources/.projects/Exam/com.python.pydev.analysis/v2_indexcache
+console.UI|1454759447000000000|/Users/AndiD/Documents/Eclipse/Exam/console/UI.py
+controller.contr|1454760281000000000|/Users/AndiD/Documents/Eclipse/Exam/controller/contr.py
+repository.__init__|1454699234000000000|/Users/AndiD/Documents/Eclipse/Exam/repository/__init__.py
+domain.__init__|1454699200000000000|/Users/AndiD/Documents/Eclipse/Exam/domain/__init__.py
+domain.validator|1454753884000000000|/Users/AndiD/Documents/Eclipse/Exam/domain/validator.py
+repository.repo|1454760305000000000|/Users/AndiD/Documents/Eclipse/Exam/repository/repo.py
+test.test|1454759042000000000|/Users/AndiD/Documents/Eclipse/Exam/test/test.py
+main|1454759202000000000|/Users/AndiD/Documents/Eclipse/Exam/main.py
+controller.__init__|1454699256000000000|/Users/AndiD/Documents/Eclipse/Exam/controller/__init__.py
+test.__init__|1454754035000000000|/Users/AndiD/Documents/Eclipse/Exam/test/__init__.py
+domain.entities|1454760281000000000|/Users/AndiD/Documents/Eclipse/Exam/domain/entities.py
+console.__init__|1454699272000000000|/Users/AndiD/Documents/Eclipse/Exam/console/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+17
+1=console.UI
+6=domain.validator
+8=Product
+2=main
+14=Product.__init__
+9=Controller
+15=Controller.__init__
+11=Repository
+12=UI.__init__
+13=Repository.__init__
+3=controller.contr
+10=UI
+16=Controller.finalize
+5=repository.repo
+7=test.test
+4=domain.entities
+17=Validator
+-- END DICTIONARY
+-- START TREE 1
+7
+UI|1|UI!9@
+app|1|app!18@
+con|1|Controller!25@
+pro|1|Product!33@
+rep|1|Repository!41@
+tes|6|testValidator!50@testValidator!58@testRepo!58@testController!58@testDomain!58@testDomain!34@
+val|1|Validator!49@
+-- END TREE
+-- START TREE 2
+29
+__e|1|__eq__!8&34@
+__i|4|__init__!9&26@__init__!8&34@__init__!10&10@__init__!11&42@
+__l|2|__len__!11&42@__loadFromFile!11&42@
+__s|2|__str__!8&34@__storeToFile!11&42@
+_co|1|_contr!12&11@
+_fi|1|_file!13&43@
+_id|1|_id!14&35@
+_na|1|_name!14&35@
+_pr|1|_price!14&35@
+_qu|1|_quantity!14&35@
+_re|1|_repo!15&27@
+_va|1|_val!15&27@
+add|3|add!11&42@addCart!9&26@add!9&26@
+car|2|cartValue!15&27@cart!15&27@
+fin|2|find!11&42@finalize!9&26@
+get|6|get_name!8&34@get_id!8&34@get_price!8&34@get_quantity!8&34@getAll!11&42@getIncome!9&26@
+id|1|id!8&35@
+inc|2|income!15&27@income!16&27@
+lis|1|list!13&43@
+men|1|menu!10&10@
+nam|1|name!8&35@
+pri|1|price!8&35@
+pro|1|product!15&27@
+qua|1|quantity!8&35@
+rep|1|report!9&26@
+sho|1|showCart!9&26@
+sta|1|start!10&10@
+upd|2|update!11&42@update!9&26@
+val|1|validate!17&50@
+-- END TREE

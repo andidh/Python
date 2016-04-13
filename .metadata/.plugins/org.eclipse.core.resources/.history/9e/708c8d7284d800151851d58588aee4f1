@@ -1,0 +1,29 @@
+class UI:
+    
+    def __init__(self, contr):
+        
+        self._contr = contr 
+        
+        
+    def menu(self):
+        print("0 - Exit")
+        print("1 - Add to File")
+    
+        
+    def start(self):
+        
+        while True:
+            
+            self.menu()
+            cmd = int(input("Give a command: "))
+            
+            if cmd == 0:
+                break
+            
+            if cmd == 1:
+                atr1 = int(input("Give atr1: "))
+                atr2 = input("Give atr2: ")
+                '''Daca atributul din problema ii numar (de ex pret) atunci pui in fata la input int, daca ii cuvant (ex. nume) atunci nu pui'''
+                self._contr.add(atr1, atr2)
+                '''in paranteza pui cate atribute ai in problema '''
+                 

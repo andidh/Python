@@ -1,0 +1,19 @@
+
+from domain.entities import Example
+
+class Controller:
+    
+    def __init__(self, repo):
+        
+        self.__repo = repo
+        
+    def add(self, atr1, atr2):
+        '''
+        
+        This function creates an object of type Example and adds it to the file
+       
+        '''
+        
+        e = Example(atr1, atr2)
+        self.__repo.add(e)
+        

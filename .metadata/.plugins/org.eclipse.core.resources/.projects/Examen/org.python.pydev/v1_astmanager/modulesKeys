@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+console.UI|/Users/AndiD/Documents/Eclipse/Examen/console/UI.py
+console.__init__|/Users/AndiD/Documents/Eclipse/Examen/console/__init__.py
+controller.__init__|/Users/AndiD/Documents/Eclipse/Examen/controller/__init__.py
+controller.contr|/Users/AndiD/Documents/Eclipse/Examen/controller/contr.py
+domain.__init__|/Users/AndiD/Documents/Eclipse/Examen/domain/__init__.py
+domain.entities|/Users/AndiD/Documents/Eclipse/Examen/domain/entities.py
+main|/Users/AndiD/Documents/Eclipse/Examen/main.py
+repository.__init__|/Users/AndiD/Documents/Eclipse/Examen/repository/__init__.py
+repository.repo|/Users/AndiD/Documents/Eclipse/Examen/repository/repo.py

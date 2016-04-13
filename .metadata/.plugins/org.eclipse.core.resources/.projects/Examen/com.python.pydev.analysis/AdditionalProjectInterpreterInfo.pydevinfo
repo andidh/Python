@@ -1,0 +1,55 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/AndiD/Documents/Eclipse/.metadata/.plugins/org.eclipse.core.resources/.projects/Examen/com.python.pydev.analysis/v2_indexcache
+console.UI|1455799678000000000|/Users/AndiD/Documents/Eclipse/Examen/console/UI.py
+controller.contr|1455799678000000000|/Users/AndiD/Documents/Eclipse/Examen/controller/contr.py
+repository.__init__|1455798310000000000|/Users/AndiD/Documents/Eclipse/Examen/repository/__init__.py
+domain.__init__|1455798257000000000|/Users/AndiD/Documents/Eclipse/Examen/domain/__init__.py
+repository.repo|1455799678000000000|/Users/AndiD/Documents/Eclipse/Examen/repository/repo.py
+main|1455799678000000000|/Users/AndiD/Documents/Eclipse/Examen/main.py
+controller.__init__|1455798338000000000|/Users/AndiD/Documents/Eclipse/Examen/controller/__init__.py
+domain.entities|1455799678000000000|/Users/AndiD/Documents/Eclipse/Examen/domain/entities.py
+console.__init__|1455799678000000000|/Users/AndiD/Documents/Eclipse/Examen/console/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+1=console.UI
+2=main
+8=Controller
+11=Controller.__init__
+10=Repository
+12=UI.__init__
+13=Repository.__init__
+3=controller.contr
+9=UI
+6=Example.__init__
+7=Example
+5=repository.repo
+4=domain.entities
+-- END DICTIONARY
+-- START TREE 1
+5
+UI|1|UI!9@
+app|1|app!18@
+con|1|Controller!25@
+exa|1|Example!33@
+rep|1|Repository!41@
+-- END TREE
+-- START TREE 2
+15
+__a|2|__atr2!6&35@__atr1!6&35@
+__e|1|__eq__!7&34@
+__i|4|__init__!8&26@__init__!7&34@__init__!9&10@__init__!10&42@
+__l|1|__len__!10&42@
+__r|1|__repo!11&27@
+__s|2|__str__!7&34@__storeToFile!10&42@
+_co|1|_contr!12&11@
+_fi|1|_file!13&43@
+add|2|add!10&42@add!8&26@
+atr|2|atr2!7&35@atr1!7&35@
+get|2|get_atr2!7&34@get_atr1!7&34@
+lis|1|list!13&43@
+loa|1|loadFromFile!10&42@
+men|1|menu!9&10@
+sta|1|start!9&10@
+-- END TREE
